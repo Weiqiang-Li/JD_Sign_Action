@@ -36,13 +36,23 @@
 
 ## 获取京东cookie
 
+方法一：
 * 使用项目中的Chrome插件：`JDCookie`；
 * Chrome中拓展程序开启`开发者模式`；
 * 点击`加载已解压的拓展程序`，选择`JDCookie`目录；
 * 登录[领京豆](https://bean.m.jd.com/)；
 * 点击`JDCookie`即可拷贝京东cookie；
  
-或者使用 copy(document.cookie) 命令
+方法二：
+* chrome 开发者模式登录[领京豆](https://bean.m.jd.com/)；
+* 在console中使用 copy(document.cookie) 命令，将cookies复制到剪贴板
+
+方法三：（解决以上获取的cookies失效的问题）
+* chrome 开发者模式打开[领京豆](https://bean.m.jd.com/)；
+* 点击地址栏左边的 锁 图标，清除cookies；
+* 登录[领京豆](https://bean.m.jd.com/)；
+* 打开 network 选项卡，回退页面至[主页]，并在过滤器中搜索 m.jd.com
+* 找到 m.jd.com 请求，复制request中的cookies
 
 ## 获取Server酱SCKEY
 
