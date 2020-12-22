@@ -53,6 +53,9 @@
 * 登录[领京豆](https://bean.m.jd.com/)；
 * 打开 network 选项卡，回退页面至[主页]，并在过滤器中搜索 m.jd.com
 * 找到 m.jd.com 请求，复制request中的cookies
+![微信截图_20201204143008.png](https://i.loli.net/2020/12/04/WR2Xr3uZG6qsdIK.png)
+![微信截图_20201204143110.png](https://i.loli.net/2020/12/04/dmpwt3ASlDTYu5Q.png)
+
 
 ## 获取Server酱SCKEY
 
