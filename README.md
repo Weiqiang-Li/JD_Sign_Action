@@ -41,6 +41,8 @@
 * 点击`加载已解压的拓展程序`，选择`JDCookie`目录；
 * 登录[领京豆](https://bean.m.jd.com/)；
 * 点击`JDCookie`即可拷贝京东cookie；
+ 
+或者使用 copy(document.cookie) 命令
 
 ## 获取Server酱SCKEY
 
